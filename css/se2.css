@@ -1,0 +1,290 @@
+body{
+    font-family: cursive;
+    text-transform: capitalize;
+    background-image: url(../MEDIA/THEWITCHER/the-witcher-netflix-tv-series-tv-series-henry-cavill-orange-eyes-hd-wallpaper-preview.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    cursor: url('../MEDIA/THEWITCHER/NicePng_minecraft-sword-png_4403781.png'),
+            url('../MEDIA/THEWITCHER/NicePng_minecraft-sword-png_4403781.svg'),
+            url('../MEDIA/THEWITCHER/NicePng_minecraft-sword-png_4403781.jpeg'), auto;
+}
+
+
+
+nav{
+    overflow: hidden;
+    width:1150px;
+    margin-left:135px;
+    border-radius: 100px;
+    background-color: #000000a6;
+    box-shadow:8px 6px 8px;
+    color:black;
+}
+
+nav .containar .brand{color: white;
+    float: left;
+    width: 20%;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 10px black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    position:relative;
+    left:950px;
+}
+
+nav .linko{
+    float: left;
+    width: 70%;
+    list-style: none;
+    padding:0;
+    margin: 0;
+    position: relative;
+    left: 200px;
+}
+
+nav .linko li{
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top:23px;
+    border-bottom: 2px solid #f50c0c00;
+    transition-duration:.6s;
+    margin-left:20px;
+}
+
+nav .linko li:hover{
+    color: black;
+    border-bottom: 2px solid #ff0000bd;
+    background-color:#109488;
+}
+
+nav .linko li a{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.containar{
+    width: 1200px;
+    margin:auto;
+}
+
+nav .containar .search{
+    position:relative;
+    right:880px;
+    top:30px;
+    background-color:white;
+    display:inline-block;
+    padding:5px 10px 5px 10px;
+    border-radius:30px;
+    box-shadow: 5px 5px 10px;
+    transition-duration:1.5s;
+    cursor:pointer;
+}
+
+nav .containar .search:hover{
+    padding-left:90px;
+    background-color:#38c9e3;
+    opacity:.8;
+}
+
+
+
+
+
+.line{
+    border-left: 10px solid red;
+    height: 400px;
+    opacity: 78%;
+    margin-left: 30%;
+}
+
+.witcher{
+    font-size: 160%;
+    font-family: Trirong;
+    padding: 8%;
+    margin: 3%;
+    text-transform: capitalize;
+    text-indent: 70px;
+    letter-spacing: 20px;
+}
+
+span1{
+    background-color: red;
+    opacity: 94%;
+}
+
+span2{
+    text-indent: 110%;
+}
+
+.titles{
+    text-align: center; 
+    color: crimson;
+    font-size: 300%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: aliceblue;
+    border-radius: 30%;
+}
+
+.image{
+    position: relative;
+    left: 30%;
+}
+
+
+
+hr{
+    border: 3px dashed crimson;
+}
+
+.sesons{
+    padding-bottom: 2%
+}
+
+.disc{
+    color: aliceblue;
+    line-height: 35px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.actors{
+    margin-left: 34%;
+    background-color: darkgray;
+    margin-right: 33%;
+}
+
+.acas{
+    border-radius: 40%;
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    padding: 5px;
+    margin: 2px;
+}
+
+.cas{
+    text-align: center;
+    font-size: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.sesons{
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+.footer .containar2{
+    max-width: 1170px;
+    margin: auto;
+}
+.footer{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 220px;
+    width:1515px;
+}
+.row{
+    display: flex;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-family: 'poppins',sans-serif;
+    font-weight: 500;
+    border-bottom:2px solid red;
+    width:150px;
+    position: relative;
+    line-height:40px;
+}
+ul{
+    list-style: none;
+}
+.footer-col ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    position: relative;
+    right: 40px;
+    transition-duration: .5s;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 12px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255,255,255,.2);
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition-duration: .5s;
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+
+
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 60%;
+    position: relative;
+    left: 20%;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 27%;
+    margin-top: -22px;
+    padding: 45px;
+    color: blue;
+    font-weight: bold;
+    font-size: 60px;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 5%;
+    border-radius: 3px 0 0 3px;
+}

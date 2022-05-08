@@ -1,0 +1,41 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li{float:left;border-right: 1px solid rgb(0, 108, 94);}
+
+li a {text-decoration:none;
+  display: block;
+  width: 60px;
+  background-color:hsl(0, 0%, 0%);
+  color:rgb(0, 108, 94);
+  text-align: center;
+  padding: 14px 16px;
+}
+
+li a:hover {
+  background-color:white;
+  color:black;
+}
+
+div{margin-top:30px;margin-bottom: 100px;margin-left:450px;background-color:rgb(0, 108, 94);padding:100px 60px;width:30%;display:block;text-align: center;line-height:1.5;font-size:25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a.sign{
+  color:rgb(0, 173, 94);
+}
+
+a.sign:hover {color:black;font-size:120%;}
+
+button{background-color:hsl(0, 0%, 0%);color:white;padding:10px;border-radius:15px;float: left;display: inline-block; cursor: pointer;box-shadow:0px 4px hsl(0, 0%, 71%);}
+button:hover {background-color: hsl(0, 0%, 24%)}
+
+button:active {background-color: hsl(0, 0%, 24%) ;box-shadow: 0 3px #666;transform: translateY(4px);}
+h1.h1{text-shadow: 5px 5px 10px rgb(0, 108, 94) ;border-style:  outset;border-color: rgb(0, 108, 94);color:#f9f9f9;text-align: center;margin-top:20px;
+        font-size: 80px; font-family: Georgia, serif;}

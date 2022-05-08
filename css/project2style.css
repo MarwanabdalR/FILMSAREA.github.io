@@ -1,0 +1,161 @@
+.p1:hover{color:hsl(0, 0%, 94%);}
+.tab1{border-collapse:collapse;margin-left:10%;background-color:hsla(0, 0%, 0%, 0.5);color:hsl(0, 100%, 100%);height:50%;}
+.tr1{color:white;font-size:15px;text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;border-bottom:3px solid hsl(0, 46%, 78%);padding:5px;}
+body {background-image:url("../MEDIA/cover.jpg"); background-size:cover;height;100%; }
+.nom{background-color:hsla(0, 0%, 0%, 0.8);margin-left:10%;margin-right:10%;position:relative;display:block;}
+.center,h1{text-align:center;background-color:hsla(0, 0%, 0%, 0.5);color:hsl(0, 100%, 100%);
+font-family: 'Abril Fatface', serif;font-size: 40px;text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;}
+.p1{color:hsl(252, 67%, 21%);target:blank;}
+td{margin-left:10%;border-right:1px inset ;text-align:center;border-style: hidden;}
+.tab2{background-color:hsla(0, 100%, 80%, 0.1);margin-left:20%;font-variant: small-caps;display:block;color:white;}
+.cap1{text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;font-size:40px; border-left:4px solid  rgb(0, 0, 0)
+;background-color: hsla(9, 100%, 64%, 0.2);border-right:4px solid rgb(0, 0, 0);color:hsl(0, 0%, 100%);font-weight: bold;font-family: Georgia, serif;}
+.story{position: absolute;right: 0;font-size:25px;left:530px;height:100px;color:hsl(0, 100%, 100%);}
+h2{text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;}
+.button1{font-size:20px;color:black;background-color:white;border:2px solid hsl(0, 0%, 71%);border-radius: 12px;padding:3px 5px;
+text-decoration: none;display: inline-block;text-align: center;box-shadow: 0 2px 4px 0 hsla(0, 0%, 0%, 0.3), 0 1.5px 5px 0 hsla(0, 0%, 0%, 0.3);margin: 4px 2px;cursor: pointer;}
+.button1:hover{background-color:hsl(0, 0%, 94%)}
+.button1{transition-duration: 0.4s;}
+.year{font-size: 20px;}
+button.watch{text-align:center;padding:50px 80px;background-color:hsla(9, 100%, 64%, 0.2);border:hidden;display: inline-block;border-radius:12px;
+margin-left:10%;margin-top:10px;font-size:40px;text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;}
+a{color:white;
+  text-decoration:none;
+  target:blank;
+}
+p{font-size:20px;font-style: oblique;}
+nav{
+  overflow: hidden;
+  width:1150px;
+  margin-left:135px;
+  border-radius: 100px;
+background-color: #000000a6;
+box-shadow:8px 6px 8px;
+color:black;
+}
+nav .containar .brand{color: white;
+  float: left;
+  width: 20%;
+  text-transform: uppercase;
+  text-shadow: 5px 5px 10px black;
+  font-style: italic;
+  font-weight: bold;
+font-size: 20px;
+position:relative;
+left:950px;
+}
+nav .linko{
+  float: left;
+width: 70%;
+list-style: none;
+ padding:0;
+margin: 0;
+position: relative;
+left: 200px;
+}
+nav .linko li{
+  display: inline-block;
+  padding: 10px 15px;
+margin-top:23px;
+border-bottom: 2px solid #f50c0c00;
+transition-duration:.6s;
+margin-left:20px;
+}
+nav .linko li:hover{
+  color: black;
+  border-bottom: 2px solid #ff0000bd;
+  background-color:#109488;
+}
+nav .linko li a{
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+.containar{
+  width: 1200px;
+ margin:auto;
+}
+nav .containar .search{
+  position:relative;
+ right:880px;
+top:30px;
+ background-color:white;
+ display:inline-block;
+ padding:5px 10px 5px 10px;
+ border-radius:30px;
+ box-shadow: 5px 5px 10px;
+ transition-duration:1.5s;
+ cursor:pointer;
+}
+nav .containar .search:hover{
+  padding-left:90px;
+ background-color:#38c9e3;
+  opacity:.8;
+}
+.footer .containar2{
+  max-width: 1170px;
+  margin: auto;
+}
+.footer{
+background-color: rgba(0, 0, 0, 0.5);
+height: 220px;
+ width:1400px;
+}
+.row{
+  display: flex;
+
+}
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+
+}
+.footer-col h4{
+  font-size: 18px;
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-family: 'poppins',sans-serif;
+  font-weight: 500;
+border-bottom:2px solid red;
+ width:150px;
+ position: relative;
+line-height:40px;
+}
+
+ul{
+  list-style: none;
+}
+.footer-col ul li a{
+
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  position: relative;
+  right: 40px;
+  transition-duration: .5s;
+}
+.footer-col ul li a:hover{
+color: #ffffff;
+padding-left: 12px;
+
+}
+.footer-col .social-links a{
+display: inline-block;
+width: 40px;
+height: 40px;
+  background-color: rgba(255,255,255,.2);
+text-align: center;
+line-height: 40px;
+border-radius: 50%;
+color: #ffffff;
+transition-duration: .5s;
+}
+.footer-col .social-links a:hover{
+  color: #24262b;
+  background-color: #ffffff;
+}
