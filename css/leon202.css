@@ -1,4 +1,5 @@
-*{text-align:center;}
+*{text-align:center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 
 nav{
     overflow: hidden;
@@ -85,21 +86,16 @@ position:relative;
 }
 
 
-head{background-color:black;
-font-size:22;
-color:#ebeda1;}
-
-body{background-color:black;}
+body{background-color:rgb(79, 108, 154);}
 
 div.dark{
-background: rgba(66,66,66,0.8);
+background: rgba(255, 255, 255,0.8);
 border-radius:25px;
 height:320%;
 width:80%;
-outline-color:white;
-text-align=center;
+text-align:center;
 color:white;
-border:1px solid white;
+border:1px rgba(255, 255, 255,0.8);;
   margin-top:100px;
   margin-bottom:100px;
   margin-right:100px;
@@ -112,59 +108,75 @@ position:relative;
   bottom:6px;
 }
 
-.watch{height:450px;width:800px;
+video{
+    position:relative;
+    bottom: 23px;
+}
+
+.watch{height:550px;width:1050px;
 border: 1px solid black;
   background-color:black;
 border-radius:25px;
   margin-right:60px;
   margin-left:60px;
   margin-bottom:60px;
-  margin-top:60px;}
-
-.trailer{height:17%;
-width:88%;
-border:1px solid black;
-  background-color:black;
-border-radius:25px;
-  margin-right:60px;
-  margin-left:60px;
-  margin-bottom:50px;
-  margin-top:50px;
-  box-shadow:5px 8px 10px #565454;
-        }
-
-.story{margin-left:20%;
-  float:center;
-  width:40%;
-hight:80px;
-border-radius:25px;
-background-color:black;
-outline-color:none;
- margin-right:60px;
-  margin-left:60px;
-  margin-bottom:50px;
-  margin-top:50px;
-color:white;
-position:relative;
-left:140px;
-       padding:5px 160px;
-       font-size:18px;
-         box-shadow:5px 8px 10px #565454;
-
+  margin-top:60px;
+  position: relative;
+  bottom: 440px;
+  left: 2px;
+  box-shadow: 5px 8px 10px #565454;
 }
-.pic{background-color:white;
-color:black;
-width:50px;
-text-overflow:eclipse;
-border-radius:25px;
+
+  .trailer {
+    height: 17%;
+    width: 51%;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 25px;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    box-shadow: 5px 8px 10px #565454;
+    position: relative;
+    bottom: 480px;
+    left: 453px;
+   
+}
+
+span.b{
+    display: block;
+}
+
+.story {
+    height: 6%;
+    width: 88%;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 25px;
+    margin-right: 60px;
+    margin-left: 60px;
+    position: relative;
+    bottom: 330px;
+    box-shadow: 5px 8px 10px #565454;
+    position: relative;
+    bottom: 480px;
+    left: 20px;
+    }
+
+.pic{
+color:rgb(255, 255, 255);
+width:130px;
+
+
  margin-right:6px;
   margin-left:6px;
      padding:0;
   }
 
-.act{width:118px;
-     height:145px;
-border-radius:25px 25px 0px 0px;
+.act{width:130px;
+     height:132px;
+border-radius:100%;
 color:black;
 margin:auto;
   border:1px solid #ccc;
@@ -172,60 +184,73 @@ margin:auto;
 color:black;
 }
 
-h1{color:white;}
+h1{color:white;
+    text-shadow: 2px 2px #484848;
+    font-size: 40;
+  }
 
 .actors{
-  margin:auto;}
-  border:1px solid #ccc;
-  hight:20px;
-  width:50%;
-display:block;
+  margin:auto;
+  height:500px;
+  width:700px;
+  border:rgba(0, 0, 0, 0);
+  margin-top: 3px;
 }
 
 video{margin:auto;
 margin-top:3px;}
 .watch{margin:auto;}
+a{text-decoration: none;
+font-size: 20;}
+a:link{color: blue;}
+a:visited{color: rgb(66, 0, 128);}
+a:hover{color:rgb(79, 79, 246)}
 
-td, th {
-  border:1px solid;
-hight:10px;
-
-}
+.data{
+    border-bottom: 1px solid #ddd;}
 
 .details{
-  width:70%;
+  width:100%;
+  font-size: 18;
   border-collapse:collapse;
-hight:50%;
+height:50%;
 color:white;
  margin-right:100px;
   margin-left:100px;
   margin-bottom:40px;
-aoutline-color:white;
+  margin-top: 40px;
+outline-color:white;
 border-radius: 5px;
   margin-top:40px;
-background-color:white;
+background-color:rgba(255, 255, 255, 0.4);
 color:black;
 border-collapse:collapse;
 padding:10px;
 border-bottom:1px solid #ddd;
+position: relative;
+right: 100px;
 }
 
+h3{font-size: 22;}
+
 .cast{
-height:27%;
+height:24%;
 width:80%;
 border: 1px solid black;
-  
-  margin:auto;
+position: relative;
+font-size: 20;
+bottom: 370px;
+ margin:auto;
 outline-color:white;
 border-radius: 25px;
-  margin-top:40px;
+  margin-top:5px;
 background-color:black;}
 
 span.a{
   display:inline-block;}
 
  
-.footer .containar2{
+.footer .containar2{ 
   max-width:1170px;
   margin: auto;
 }
@@ -260,7 +285,7 @@ height: 180px;
   position: absolute;
   left: 0;
   bottom: -10px;
-  background-color: #e91e63;
+  background-color: #030d35;
   height: 2px;
   box-sizing: border-box;
   width: 50px;
