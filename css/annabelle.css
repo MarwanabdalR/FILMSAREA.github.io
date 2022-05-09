@@ -175,12 +175,12 @@ border-radius: 8px;
     width: 40%;
     content: 100%;
   }
-  h1,h2{
+  h1#des,h2#des{
       color: #B85C38;
       border-left: 6px solid #322F3D;
       padding-left:5px ;
   }
-h2{
+h2#des{
     font-size:1.8em;
 }
 #gallery{
