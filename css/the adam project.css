@@ -1,0 +1,201 @@
+﻿body {
+    background-image: url('ground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;}
+    h1 {color: #DDDDDD;}
+    h2 {color: #DDDDDD;}
+    table,th,td{
+      border: 1px solid rgb(8, 14, 71);
+      text-align: left;
+    
+      border-color: #f1f0f5;
+     }
+  th, td {
+    padding: 15px;
+    color: white;
+    }
+    nav{
+        overflow: hidden;
+        width:1150px;
+        margin-left:135px;
+        border-radius: 100px;
+        background-color: #000000a6;
+        box-shadow:8px 6px 8px;
+        color:black;
+    }
+    
+    nav .containar .brand{color: white;
+        float: left;
+        width: 20%;
+        text-transform: uppercase;
+        text-shadow: 5px 5px 10px black;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 20px;
+        position:relative;
+        left:950px;
+    }
+    
+    nav .linko{
+        float: left;
+        width: 70%;
+        list-style: none;
+        padding:0;
+        margin: 0;
+        position: relative;
+        left: 200px;
+    }
+    
+    nav .linko li{
+        display: inline-block;
+        padding: 10px 15px;
+        margin-top:23px;
+        border-bottom: 2px solid #f50c0c00;
+        transition-duration:.6s;
+        margin-left:20px;
+    }
+    
+    nav .linko li:hover{
+        color: black;
+        border-bottom: 2px solid #ff0000bd;
+        background-color:#109488;
+    }
+    
+    nav .linko li a{
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .containar{
+        width: 1200px;
+        margin:auto;
+    }
+    
+    nav .containar .search{
+        position:relative;
+        right:880px;
+        top:30px;
+        background-color:white;
+        display:inline-block;
+        padding:5px 10px 5px 10px;
+        border-radius:30px;
+        box-shadow: 5px 5px 10px;
+        transition-duration:1.5s;
+        cursor:pointer;
+    }
+    
+    nav .containar .search:hover{
+        padding-left:90px;
+        background-color:#38c9e3;
+        opacity:.8;
+    }
+    .footer .containar2{
+        max-width: 1170px;
+        margin: auto;
+    }
+    .footer{
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 220px;
+        width:1515px;
+    }
+    .row{
+        display: flex;
+    }
+    .footer-col{
+        width: 25%;
+        padding: 0 15px;
+    }
+    .footer-col h4{
+        font-size: 18px;
+        color: white;
+        text-transform: capitalize;
+        margin-bottom: 30px;
+        font-family: 'poppins',sans-serif;
+        font-weight: 500;
+        border-bottom:2px solid red;
+        width:150px;
+        position: relative;
+        line-height:40px;
+    }
+    ul{
+        list-style: none;
+    }
+    .footer-col ul li a{
+        text-decoration: none;
+        font-size: 16px;
+        text-transform: capitalize;
+        font-weight: 300;
+        color: #bbbbbb;
+        display: block;
+        position: relative;
+        right: 40px;
+        transition-duration: .5s;
+    }
+    .footer-col ul li a:hover{
+        color: #ffffff;
+        padding-left: 12px;
+    }
+    .footer-col .social-links a{
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background-color: rgba(255,255,255,.2);
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        color: #ffffff;
+        transition-duration: .5s;
+    }
+    .footer-col .social-links a:hover{
+        color: #24262b;
+        background-color: #ffffff;
+    }
+
+    #photo{
+        display: inline-block;
+        margin: 50px;
+    }
+
+        #gallery{
+            display: inline-block; 
+            position: relative;
+             width: 100px;
+              height: 100px;
+               overflow: hidden;
+                border-radius: 50%;
+                
+             
+        
+        }
+.p{
+    border: 1px cadetblue;
+    background-color: #109488;
+    height: 100px;
+    width: 100px;
+    color:#DDDDDD;
+}
+        #d{
+            color: #DDDDDD;
+            font-size: large;
+        }
+
+        .a1:link,.a1:visited {
+            background-color: #b1b968;
+           color:white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+           border-radius: 18px 50px;
+            }
+      
+           .a1:hover{
+          background-color:#92a035;
+          color:white;
+          border-radius: 18px 50px;
+            }
+    
