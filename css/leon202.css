@@ -16,12 +16,12 @@ nav .brand{color: white;
   float: left;
   width: 20%;
   text-transform: uppercase;
-  text-shadow: 3px 1px 5px gray;
+  text-shadow: 3px 1px 5px #0a0a0a;
   font-style: italic;
   font-weight: bold;
 font-size: 20px;
 position:relative;
-left:950px;
+left:900px;
 }
 nav .linko{
   float: left;
@@ -30,7 +30,7 @@ list-style: none;
 padding: 0;
 margin: 0;
 position: relative;
-left: 200px;
+left: -50px;
 }
 nav .linko li{
   display: inline-block;
@@ -42,7 +42,7 @@ transition-duration:.6s;
 }
 nav .linko li:hover{
   color: black;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #ed0000;
   background-color:#009688;
 }
 nav .linko li a{
@@ -255,14 +255,16 @@ span.a{
 .footer{
 background-color: rgba(0, 0, 0, 0.5);
 height: 220px;
- width:1400px;
+ width:1500px;
+ position:relative;
+ right:100px;
 }
 .row{
   display: flex;
 
 }
 .footer-col{
-  width: 25%;
+  width: 30%;
   padding: 0 15px;
 
 }
@@ -276,6 +278,7 @@ height: 220px;
 border-bottom:2px solid red;
  width:150px;
  position: relative;
+
 line-height:40px;
 }
 
@@ -291,7 +294,7 @@ ul{
   color: #bbbbbb;
   display: block;
   position: relative;
-  right: 40px;
+  right: 150px;
   transition-duration: .5s;
 }
 .footer-col ul li a:hover{
@@ -301,9 +304,12 @@ padding-left: 12px;
 }
 .footer-col .social-links a{
 display: inline-block;
-width: 40px;
-height: 40px;
-  background-color: rgba(255,255,255,.2);
+width: 25px;
+height: 30px;
+ padding-top:15px;
+ padding-right:10px;
+ padding-left:10px;
+ background-color: rgba(255,255,255,.2);
 text-align: center;
 line-height: 40px;
 border-radius: 50%;
