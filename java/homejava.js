@@ -2,7 +2,7 @@ function mOver(obj) {
   obj.innerHTML="Click Me";
 }
 function mOut(obj) {
-  obj.innerHTML="Login Now  <i class='fa-solid fa-right-to-bracket'></i>";
+  obj.innerHTML="Register Now  <i class='fa-solid fa-right-to-bracket'></i>";
 }
 function box(){
   alert("wellcome in films area.");
@@ -10,10 +10,7 @@ function box(){
 box();
 
 var img_content = document.getElementById('box');
-var image = ['../media/postergot.jpg',
-  '../media/dont2.jpg',
-  '../media/spong2020/13.jpg',
-  '../media/conji.jpg'];
+var image = [ 'java/postergot.jpg','java/dont2.jpg','java/spong3','java/conji.jpg'];
 var i=0,j=0;
 function nextimg() {
   document.slideshow.src=image[i];
