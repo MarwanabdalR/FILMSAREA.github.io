@@ -133,6 +133,17 @@ span2{
     border-radius: 30%;
 }
 
+.titles :hover{
+    text-align: center; 
+    color: rgb(118, 89, 95);
+    font-size: 300%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 30%;
+}
+
 .image{
     position: relative;
     left: 30%;
@@ -155,13 +166,37 @@ hr{
     font-size: 20px;
 }
 
+.disc:hover{
+    background-color: #24262bc3
+}
+
+.disc::before{
+    counter-increment: lines;
+    content: counter(lines);
+}
+
+a:hover{
+    color: #109488;
+}
+
 .actors{
-    margin-left: 34%;
-    background-color: darkgray;
-    margin-right: 33%;
+    display: flex;
+    margin-left: 30%;
+    background-color: #af525294;
+    margin-right: 37.5%;
+    border-radius: 50px;
+}
+
+.actors :hover{
+    width: 20%;
+    height: 20%;
+    transition-duration:1.5s;
 }
 
 .acas{
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     border-radius: 40%;
     width: 80px;
     height: 80px;
@@ -293,6 +328,9 @@ ul{
     font-size: 40px;
     color: maroon;
     text-align: center;
-    background-color: black;
-    border-radius: 8px;
+    background-color: #d99b5c8a;
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 3px dashed black;
 }
