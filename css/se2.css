@@ -288,3 +288,11 @@ ul{
     right: 5%;
     border-radius: 3px 0 0 3px;
 }
+
+.clock{
+    font-size: 40px;
+    color: maroon;
+    text-align: center;
+    background-color: black;
+    border-radius: 8px;
+}

@@ -53,9 +53,11 @@ h1{
 }
 
 .vfre{
-    position: relative;left: 29%;
+    position: relative;
+    left: 29%;
     width: 42%;
     height: 350px;
+    border: 10px solid #ff040450;
 }
 
 .des{
@@ -108,8 +110,10 @@ ul{
     float: right;
 }
 .actors{
-    position: relative;
-    left: 28%;
+    background-color: #0506064f;
+    margin-left: 30%;
+    margin-right: 36%;
+    border-radius: 20px;
 }
 .acas{
     border-radius: 40%;
@@ -127,4 +131,18 @@ h2{
     padding: 10px 10px;
     letter-spacing: 100px;
     text-shadow: 12px 6px silver;
+}
+
+.clock{
+    font-size: 40px;
+    color: maroon;
+    text-align: center;
+    background-color: black;
+    border-radius: 8px;
+}
+
+.produ{
+    background-color:#bf080854;
+    text-decoration: none;
+    font-size: 30px;
 }
