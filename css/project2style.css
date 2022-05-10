@@ -1,7 +1,7 @@
 .p1:hover{color:hsl(0, 0%, 94%);}
 .tab1{border-collapse:collapse;margin-left:10%;background-color:hsla(0, 0%, 0%, 0.5);color:hsl(0, 100%, 100%);height:50%;}
 .tr1{color:white;font-size:15px;text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;border-bottom:3px solid hsl(0, 46%, 78%);padding:5px;}
-body {background-image:url("../MEDIA/cover.jpg"); background-size:cover;height;100%; }
+body {background-image:url("../media/cover.jpg"); background-size:cover;height;100%; }
 .nom{background-color:hsla(0, 0%, 0%, 0.8);margin-left:10%;margin-right:10%;position:relative;display:block;}
 .center,h1{text-align:center;background-color:hsla(0, 0%, 0%, 0.5);color:hsl(0, 100%, 100%);
 font-family: 'Abril Fatface', serif;font-size: 40px;text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;}
