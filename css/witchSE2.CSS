@@ -160,6 +160,9 @@ td{
     width: 42%;
     height: 350px;
     margin-bottom: 30px;
+    border: 10px solid aliceblue;
+    border-radius: 20px;
+    box-shadow: 10% 10% 10% 20% green;
 }
 
 
@@ -242,6 +245,7 @@ ul{
     max-width: 60%;
     position: relative;
     left: 20%;
+    margin-bottom: 200px;
 }
 
 /* Hide the images by default */
@@ -284,4 +288,17 @@ ul{
 
 hr{
     border: 2px initial aliceblue;
+}
+
+.clock{
+    font-size: 40px;
+    color: maroon;
+    text-align: center;
+    background-color: #d99b5c8a;
+    border-radius: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 3px dashed black;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
