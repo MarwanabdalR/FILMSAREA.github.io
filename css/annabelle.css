@@ -175,7 +175,7 @@ border-radius: 8px;
     width: 40%;
     content: 100%;
   }
-  h1#des,h2#des{
+  #des{
       color: #B85C38;
       border-left: 6px solid #322F3D;
       padding-left:5px ;
@@ -209,7 +209,7 @@ h2#des{
 #photo{
     display: inline-block;
     
-    margin: 2% 8% 2% 0;
+    margin: 15px 0px 10px 0;
 }
 /* Slideshow container */
 .slideshow-container {
