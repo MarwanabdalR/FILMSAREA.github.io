@@ -1,5 +1,5 @@
 body{
-  background-image: url(".../MEDIA/wallpaper your name.jpg");
+  background-image: url("../MEDIA/wallpaper your name.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
