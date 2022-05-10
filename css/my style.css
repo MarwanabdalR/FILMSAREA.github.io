@@ -1,7 +1,7 @@
 ﻿h1 {color: #DDDDDD;}
 h2 {color: #DDDDDD;}
 body {
-    background-image: url('trix3.jpg');
+    background-image: url('../media/trix3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
