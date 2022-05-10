@@ -83,7 +83,9 @@ body {
   text-transform: capitalize;
 }
 	
-	
+	.button:hover {
+  background-color: rgb(86, 96, 126);
+}
 	
 .footer .containar2{
   max-width: 1170px;
