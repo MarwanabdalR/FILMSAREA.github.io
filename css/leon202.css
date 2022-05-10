@@ -42,7 +42,7 @@ transition-duration:.6s;
 }
 nav .linko li:hover{
   color: black;
-  border-bottom: 2px solid #ed0000;
+  border-bottom: 2px solid #b6dfed;
   background-color:#009688;
 }
 nav .linko li a{

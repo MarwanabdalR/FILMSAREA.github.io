@@ -52,6 +52,7 @@ button{border-radius: 12px;margin-left:20%;padding: 60px 70px;text-align:center;
   position: relative;
   transition: 0.5s;
 }
+a{color:white;text-decoration:none;}
 
 .button1 span:after {
   content: '\00bb';
@@ -76,8 +77,11 @@ button{border-radius: 12px;margin-left:20%;padding: 60px 70px;text-align:center;
 }
 .footer{
 background-color: rgba(0, 0, 0, 0.5);
-height: 220px;
+height: 230px;
  width:1520px;
+ position:relative;
+ top:10px;
+
 }
 .row{
   display: flex;
@@ -101,7 +105,7 @@ border-bottom:2px solid red;
 line-height:40px;
 }
 
-ul{
+.footer-col .list li{
   list-style: none;
 }
 .footer-col ul li a{
