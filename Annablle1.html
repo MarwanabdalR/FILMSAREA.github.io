@@ -29,11 +29,14 @@
   </header>
 
     <body>
+
+      <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-angles-up"></i></button>
+
         <div id="body">
         <div style="display: inline;" id="d1">Annabelle</div><br /><span >2014 .</span> <span class="fa fa-star checked"></span><span id="rating">5.4/10</span>  
         <p id="iv">
         <img id="img1" src="media/img1.jpeg" alt="Annablle">
-        <video src="media/Annabelle - Official Main Trailer [HD].mp4" autoplay muted controls></video>
+        <video src="media/ Video 2022-05-10 at 10.15.24 PM.mp4" autoplay muted controls></video>
         </p><br>
        <div id="hor">
             Horror 
@@ -223,6 +226,27 @@
               slides[slideIndex-1].style.display = "block";  
               dots[slideIndex-1].className += " active";
             }
+
+		//Get the button
+		var mybutton = document.getElementById("myBtn");
+		
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+		
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			mybutton.style.display = "block";
+		  } else {
+			mybutton.style.display = "none";
+		  }
+		}
+		
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
+
             </script>
 
       

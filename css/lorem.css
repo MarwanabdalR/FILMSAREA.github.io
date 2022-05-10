@@ -81,19 +81,9 @@ body {
   font-weight: 400;
   text-transform: capitalize;
 }
+.button:hover {
+  background-color: rgb(86, 96, 126);
 
-
-.image{
-		transition:0.7s ease;
-	}
-	.image:hover{transform: scale(1.1); }
-	
-.contente{
-		display:flex;
-		justify-content:center;
-		flex-direction:row;
-		flex-wrap:wrap;
-	}
 
 .footer .containar2{
   max-width: 1170px;

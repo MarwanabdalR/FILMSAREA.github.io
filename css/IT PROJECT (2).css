@@ -5,7 +5,11 @@ body{
   background-size: cover;
   margin: 0;
 }
-.poster {
+.poster{
+  border: 1px hidden;
+  padding-bottom: 50px;
+}
+.width {
   width: 1000px;
   margin: auto;
   border: hidden;
@@ -93,7 +97,7 @@ body{
 }
 .table {
   border: 1px solid ;
-  border-collapse: collapse;
+  border-collapse: separate;
   border-color: rgba(52, 48, 70, 0.3);
   height: 600px;
   width: 590px;
