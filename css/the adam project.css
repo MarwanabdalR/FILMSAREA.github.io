@@ -198,4 +198,8 @@
           color:white;
           border-radius: 18px 50px;
             }
-    
+    .link{
+        position: absolute;
+        bottom: 45%;
+        left: 45%;
+    }
