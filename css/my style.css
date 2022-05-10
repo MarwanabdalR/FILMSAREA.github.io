@@ -160,3 +160,26 @@ body {
       color:white;
       border-radius: 18px 50px;
         }
+.imo1{
+    width:350px;
+    height:500px;
+    position:relative;
+    left:500px;
+    top:50px;
+    border-radius:20px;
+    box-shadow:5px 12px 8px;
+}
+video{
+    width:800px;
+    height:500px;
+    border-radius:25px;
+    
+}
+.story{
+    background-color:#00000099;
+    color:white;
+    padding:18px;
+    border-radius:20px;
+    font-size:18px;
+    
+}
