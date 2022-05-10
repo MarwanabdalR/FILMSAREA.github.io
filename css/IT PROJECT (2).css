@@ -1,11 +1,15 @@
 body{
-  background-image: url("../media/wallpaper your name.jpg");
+  background-image: url("../MEDIA/wallpaper your name.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   margin: 0;
 }
-.poster {
+.poster{
+  border: 1px hidden;
+  padding-bottom: 50px;
+}
+.width {
   width: 1000px;
   margin: auto;
   border: hidden;
