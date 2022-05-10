@@ -207,8 +207,8 @@
     }
     .footer{
         background-color: rgba(0, 0, 0, 0.5);
-        height: 220px;
-        width:1250px;
+        height: 100%;
+        width: 100%;
         border-radius: 50px;
     }
     .row{
