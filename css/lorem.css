@@ -81,7 +81,7 @@ body {
 
 .button:hover {
   background-color: rgb(86, 96, 126);
-
+}
 .image{
 		transition:0.7s ease;
 	}
