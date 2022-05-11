@@ -377,7 +377,11 @@ audio {
   cursor: pointer;
   color: rgb(0, 0, 0);
 }
-
+.footer{
+  padding: 15px 0;
+  background-color: rgba(27, 25, 36, 0.8);
+  color: white;
+}
 
 .footer .containar2{
   max-width: 1170px;
