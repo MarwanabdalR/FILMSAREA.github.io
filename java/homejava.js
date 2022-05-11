@@ -2,7 +2,7 @@ function mOver(obj) {
   obj.innerHTML="Click Me";
 }
 function mOut(obj) {
-  obj.innerHTML="Register Now  <i class='fa-solid fa-right-to-bracket'></i>";
+  obj.innerHTML="login Now  <i class='fa-solid fa-right-to-bracket'></i>";
 }
 
 var img_content = document.getElementById('box');
