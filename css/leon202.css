@@ -107,6 +107,10 @@
       position:relative;
       bottom: 23px;
   }
+
+.mode{
+      background-color: #0a0a0a;
+  }
   
   .watch{height:559px;width:1050px;
   border: 1px solid black;
