@@ -2,12 +2,8 @@ function mOver(obj) {
   obj.innerHTML="Click Me";
 }
 function mOut(obj) {
-  obj.innerHTML="Register Now  <i class='fa-solid fa-right-to-bracket'></i>";
+  obj.innerHTML="login Now  <i class='fa-solid fa-right-to-bracket'></i>";
 }
-function box(){
-  alert("wellcome in films area.");
-}
-box();
 
 var img_content = document.getElementById('box');
 var image = [ 'java/postergot.jpg','java/dont2.jpg','java/spong3','java/conji.jpg'];
