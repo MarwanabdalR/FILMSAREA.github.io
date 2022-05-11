@@ -1,1 +1,1 @@
-alarm("Enjoy ^-^");
+alert("Enjoy ^-^");
