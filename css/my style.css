@@ -228,7 +228,7 @@ display:inline-block;
       font-size: 22px;
       border: none;
       outline: none;
-      background-color: rgb(70, 70, 149);
+     background-color: rgb(72, 144, 46);
 		color: rgb(244, 242, 242);
 		cursor: pointer;
 		padding: 15px;
@@ -236,6 +236,6 @@ display:inline-block;
 	  }
 	  
 	  #myBtn:hover {
-		background-color: rgb(88, 106, 151);
+		background-color: rgb(106, 142, 93);
 	  }
 

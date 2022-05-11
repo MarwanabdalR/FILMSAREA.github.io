@@ -262,6 +262,7 @@
    width:1518px;
    position:relative;
    right:100px;
+    top:300px;
   }
   .row{
     display: flex;
