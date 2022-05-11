@@ -159,18 +159,18 @@ hr{
     padding-bottom: 2%
 }
 
-.disc{
+.discr{
     color: aliceblue;
     line-height: 35px;
     text-align: center;
     font-size: 20px;
 }
 
-.disc:hover{
+.discr:hover{
     background-color: #24262bc3
 }
 
-.disc::before{
+.discr::before{
     counter-increment: lines;
     content: counter(lines);
 }
@@ -338,37 +338,28 @@ ul{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   #myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    background-color: #04AA6D; /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    background-color: #04AA6D; 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 18px;
   }
   
   #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+    background-color: #555;
+  }
+
+.dark{
+    border: #04AA6D;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
   }
