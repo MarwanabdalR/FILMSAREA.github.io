@@ -1,6 +1,7 @@
 body{
-  background-image: url("../MEDIA/wallpaper your name.jpg");
+  background-image: url("../media/wallpaper your name.jpg");
   background-repeat: no-repeat;
+  background-position:center;
   background-attachment: fixed;
   background-size: cover;
   margin: 0;
