@@ -1,4 +1,4 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
@@ -6,6 +6,7 @@
 
 <style>css</style>
 <link rel="stylesheet" href="leon202.css"/>
+
 </head>
 <header>
     <nav>
@@ -18,7 +19,7 @@
         </div>
         <ul class="linko">
             <li> <a href="#" target="_self">Home</a> </li>
-            <li> <a href="#"target="_self">About</a> </li>
+            <li> <a href="#" target="_self">About</a> </li>
             <li> <a href="#" target="_self">contact us</a> </li>
         </ul>
         </div>
@@ -113,9 +114,11 @@ Malky</th></tr>
     <td class="data">1994</td>
   </tr>
 </table>
-
-
+<script src="leon.js"></script>
+</body>
 </div>
+
+
 
 <div class="footer">
 <div class="containar2">
@@ -155,6 +158,5 @@ Malky</th></tr>
 
 </div>
 </div>
-
 
 </html>
