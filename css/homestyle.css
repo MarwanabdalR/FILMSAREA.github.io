@@ -116,7 +116,7 @@ nav .containar .search:hover{
 
 }
 .name{
-  width: 50px;
+    width: 50px;
   font-size: 100px;
   font-weight: bold;
   position:relative;
@@ -124,9 +124,9 @@ nav .containar .search:hover{
   top:80px;
 color:#e1e4eb;
 text-shadow:3px 3px 8px;
-  border-left: 13px solid #32083a;
+  border-left: 18px solid #1d08ff6b;
   padding:0 0 90px 100px;
-height:400px
+height:400px;
 }
 span{
   font-size:200px;
