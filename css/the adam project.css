@@ -213,13 +213,13 @@
       font-size: 22px;
       border: none;
       outline: none;
-      background-color: rgb(248, 250, 255);
-      color: rgb(255, 0, 0);
-      cursor: pointer;
-      padding: 15px;
-      border-radius: 10px;
-      }
-      
-      #myBtn:hover {
-      background-color: rgb(85, 85, 85);
-      }
+      background-color: rgb(70, 70, 149);
+		color: rgb(244, 242, 242);
+		cursor: pointer;
+		padding: 15px;
+		border-radius: 10px;
+	  }
+	  
+	  #myBtn:hover {
+		background-color: rgb(88, 106, 151);
+	  }
