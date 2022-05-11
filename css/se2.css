@@ -208,6 +208,7 @@ a:hover{
 .cas{
     text-align: center;
     font-size: 50px;
+    color: #04AA6D;
 }
 
 a{
@@ -338,7 +339,7 @@ ul{
 
 
 
-  #myBtn {
+#myBtn {
     display: none; 
     position: fixed; 
     bottom: 20px; 
@@ -349,11 +350,11 @@ ul{
     padding: 15px; 
     border-radius: 10px; 
     font-size: 18px;
-  }
-  
-  #myBtn:hover {
+}
+
+#myBtn:hover {
     background-color: #555;
-  }
+}
 
 .dark{
     border: #04AA6D;
@@ -362,4 +363,4 @@ ul{
 .dark-mode {
     background-color: black;
     color: white;
-  }
+}

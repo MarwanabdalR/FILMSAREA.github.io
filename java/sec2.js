@@ -70,13 +70,6 @@ function topFunction() {
 
 
 function myFunction() {
-  var element = document.getElementsByClassName("titles");
-  element.classList.toggle("dark-mode");
-}
-
-
-
-function myFunction() {
   var element = document.getElementById("disc");
   element.classList.toggle("discr");
 }
