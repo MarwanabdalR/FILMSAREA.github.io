@@ -1,5 +1,5 @@
 ﻿body {
-    background-image: url('ground.png');
+    background-image: url('../media/ground.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -184,7 +184,7 @@
         }
 
         .a1:link,.a1:visited {
-            background-color: #b1b968;
+            background-color: #68acb9;
            color:white;
             padding: 10px 20px;
             text-align: center;
@@ -200,6 +200,6 @@
             }
     .link{
         position: absolute;
-        bottom: 45%;
-        left: 45%;
+        bottom: -30%;
+        left: 47%;
     }
