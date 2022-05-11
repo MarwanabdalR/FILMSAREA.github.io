@@ -224,6 +224,8 @@ bottom:210px;
 opacity:1;
 box-shadow:8px 6px 8px;
 color:black;
+   transition:1s;
+
 
 }
 .collection5 #poster-link1{
@@ -258,6 +260,8 @@ bottom:200px;
 opacity:1;
 box-shadow:8px 6px 8px;
 color:black;
+   transition:1s;
+
 }
 .collection5 #poster-link2{
 text-decoration: none;
@@ -317,6 +321,8 @@ bottom:215px;
 opacity:1;
 box-shadow:8px 6px 8px;
 color:black;
+   transition:1s;
+
 }
 .collection1 #poster-link3{
 text-decoration: none;
@@ -349,6 +355,8 @@ bottom:210px;
 opacity:1;
 box-shadow:8px 6px 8px;
 color:black;
+   transition:1s;
+
 }
 .collection1 #poster-link4{
 text-decoration: none;
@@ -382,6 +390,8 @@ bottom:210px;
 opacity:1;
 box-shadow:8px 6px 8px;
 color:black;
+   transition:1s;
+
 }
 .collection1 #poster-link14{
 text-decoration: none;
@@ -415,7 +425,10 @@ bottom:210px;
 opacity:1;
 box-shadow:8px 6px 8px;
 color:black;
+ transition:1s;
+
 }
+
 .collection1 #poster-link15{
 text-decoration: none;
 
@@ -474,6 +487,8 @@ bottom:210px;
 opacity:1;
 box-shadow:8px 6px 8px;
 color:black;
+ transition:1s;
+
 }
 .collection2 #poster-link5{
 text-decoration: none;
@@ -507,6 +522,8 @@ bottom:200px;
 opacity:1;
 box-shadow:8px 6px 8px;
 color:black;
+   transition:1s;
+
 }
 .collection2 #poster-link6{
 text-decoration: none;
@@ -540,6 +557,8 @@ bottom:200px;
 opacity:1;
 box-shadow:8px 6px 8px;
 color:black;
+   transition:1s;
+
 }
 .collection2 #poster-link7{
 text-decoration: none;
@@ -599,6 +618,8 @@ bottom:215px;
 opacity:1;
 box-shadow:8px 6px 8px;
 color:black;
+   transition:1s;
+
 }
 .collection3 #poster-link8{
 text-decoration: none;
@@ -632,6 +653,8 @@ bottom:203px;
 opacity:1;
 box-shadow:8px 6px 8px;
 color:black;
+   transition:1s;
+
 }
 .collection3 #poster-link9{
 text-decoration: none;
@@ -691,6 +714,8 @@ bottom:215px;
 opacity:1;
 box-shadow:8px 6px 8px;
 color:black;
+   transition:1s;
+
 }
 .collection4 #poster-link10{
 text-decoration: none;
@@ -724,6 +749,8 @@ bottom:202px;
 opacity:1;
 box-shadow:8px 6px 8px;
 color:black;
+   transition:1s;
+
 }
 .collection4 #poster-link11{
 text-decoration: none;
@@ -783,6 +810,8 @@ bottom:210px;
  opacity:1;
  box-shadow:8px 6px 8px;
  color:black;
+   transition:1s;
+
 }
 .collection6 #poster-link12{
 text-decoration: none;
@@ -816,6 +845,8 @@ bottom:210px;
  opacity:1;
  box-shadow:8px 6px 8px;
  color:black;
+   transition:1s;
+
 }
 .collection6 #poster-link13{
 text-decoration: none;
@@ -839,24 +870,37 @@ transition-duration:1.5s;
 .collection6 #poster-link13 #poster-name13:hover{
 background-color:#fffffe;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.collection5 #poster1:hover{
+ transform:scale(1.2)rotate(5deg);
+}.collection5 #poster2:hover{
+ transform:scale(1.2)rotate(5deg);
+}.collection1 #poster3:hover{
+ transform:scale(1.2)rotate(5deg);
+}.collection1 #poster4:hover{
+ transform:scale(1.2)rotate(5deg);
+}.collection1 #poster14:hover{
+ transform:scale(1.2)rotate(5deg);
+}.collection1 #poster15:hover{
+ transform:scale(1.2)rotate(5deg);
+}.collection2 #poster5:hover{
+ transform:scale(1.2)rotate(5deg);
+}.collection2 #poster6:hover{
+ transform:scale(1.2)rotate(5deg);
+}.collection2 #poster7:hover{
+ transform:scale(1.2)rotate(5deg);
+}.collection3 #poster8:hover{
+ transform:scale(1.2)rotate(5deg);
+}.collection3 #poster9:hover{
+ transform:scale(1.2)rotate(5deg);
+}.collection4 #poster10:hover{
+ transform:scale(1.2)rotate(5deg);
+}.collection4 #poster11:hover{
+ transform:scale(1.2)rotate(5deg);
+}.collection6 #poster12:hover{
+ transform:scale(1.2)rotate(5deg);
+}.collection6 #poster13:hover{
+ transform:scale(1.2)rotate(5deg);
+}
 
 
 
