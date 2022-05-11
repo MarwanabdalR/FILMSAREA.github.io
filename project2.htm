@@ -5,8 +5,7 @@
 <title>miracle in cell no 7</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="css/project2style.css">
-  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+<link rel="stylesheet" type="text/css" href="project2style.css">
 </head>
 <body>
 <nav>
@@ -17,7 +16,7 @@
 <div class="search">
 <i class="fa-solid fa-magnifying-glass"></i></div>
   <ul class="linko">
-<li> <a href="index.html" target="_self">Home</a> </li>
+<li> <a href="#" target="_self">Home</a> </li>
 <li> <a href="#"target="_self">About</a> </li>
 <li> <a href="#" target="_self">contact us</a> </li>
   </ul>
@@ -35,9 +34,9 @@ Prison will be their home.<br><br>
 <a target="_blank" class="button1"  href="https://www.imdb.com/search/keyword/?keywords=year-1983&ref_=tt_stry_kw">year 1983</a>
 <a target="_blank" class="button1" href="https://www.imdb.com/search/keyword/?keywords=father-daughter-relationship&ref_=tt_stry_kw">father daughter relationship</a> 
 </div>
-<img src="media/photo.jpg" width="500px" height="600px" title="he has a brain the size of a pea!">
+<img src="photo.jpg" width="500px" height="600px" title="he has a brain the size of a pea!">
 <video width="50%" height="auto" autoplay controls title="trailer">
-<source src="media/trailer2.mp4" type="video/mp4"></video>
+<source src="trailer2.mp4" type="video/mp4"></video>
 </div><br>
 <table width="80%" class="tab1">
 <tr class="tr1">
@@ -71,38 +70,89 @@ Prison will be their home.<br><br>
 <table width="50%" class="tab2">
 <caption class="cap1"> Cast </caption>
 <tr>
-<th><img src="media/aras.jpg" width="90px" height="100px"></th>
+<th><img src="aras.jpg" width="90px" height="100px"></th>
 <th style="font-size:30px;">Aras Bulut Iynemli</th>
-<th><img src="media/kiz.jpg"  width="90px" height="100px"></th>
+<th><img src="kiz.jpg"  width="90px" height="100px"></th>
 <th style="font-size:30px;">Nisa Sofia Aksongur</th>
 </tr>
 <tr>
-<th><img src="media/techer.jpg"  width="90px" height="100px"></th>
+<th><img src="techer.jpg"  width="90px" height="100px"></th>
 <th style="font-size:30px;">Deniz Baysal</td>
-<th> <img src="media/grand.jpg"  width="90px" height="100px"></th>
+<th> <img src="grand.jpg"  width="90px" height="100px"></th>
 <th style="font-size:30px;"> Celile Toyon Uysal </th>
 </tr>
-<th><img src="media/ilker.jpg"  width="90px" height="100px"></th>
+<th><img src="images.jpg"  width="90px" height="100px"></th>
 <th style="font-size:30px;"> Ilker Aksum</th>
-<th> <img src="media/sarp.jpg" width="90px" height="100px"></th>
+<th> <img src="sarp.jpg" width="90px" height="100px"></th>
 <th style="font-size:30px;"> Sarp Akkaya</th>
 </tr>
 <tr>
-<th> <img src="media/yusuf.jpg"  width="90px" height="100px"></th>
+<th> <img src="yusuf.jpg"  width="90px" height="100px"></th>
 <th style="font-size:30px;">Mesut Akusta</th>
-<th><img src="media/ova.jpg" width="90px" height="100px"></th>
+<th><img src="ova.jpg" width="90px" height="100px"></th>
 <th style="font-size:30px;">Hayal Köseoglu</th>
 </tr>
 <tr>
-<th><img src="media/Deniz Celiloğlu.jpg" width="90px" height="100px"></th>
+<th><img src="Deniz Celiloğlu.jpg" width="90px" height="100px"></th>
 <th style="font-size:30px;"> Deniz Celiloğlu</th>
-<th><img src="media/yurdaerokur.jpg" width="90px" height="100px"></th>
+<th><img src="yurdaerokur.jpg" width="90px" height="100px"></th>
 <th style="font-size:30px;">Yurdaer Okur</th>
 </tr>
 </table>
 <hr>
 <button class="watch"><a target="_blank" href="https://www.youtube.com/watch?v=RHECK4N8P3w">WATCH NOW</a></button>
-<button class="watch"><a target="_blank" href="https://stagatvfiles.com/videos/file/6120df5be6b35/Miracle-in-Cell-No-7-2019-STAGATV-COM-mp4">DOWNLOAD NOW</button>
+<button class="watch"><a target="_blank" href="https://stagatvfiles.com/videos/file/6120df5be6b35/Miracle-in-Cell-No-7-2019-STAGATV-COM-mp4">DOWNLOAD NOW</button><br><br>
+<div class="slideshow-container">
+<div class="mySlides fade">
+<div class="numbertext">1 / 3</div>
+<img src="myphoto.jpg" style="width:100%">
+</div>
+<div class="mySlides fade">
+<div class="numbertext">2 / 3</div>
+<img src="pic3.jpg" style="width:100%">
+</div>
+<div class="mySlides fade">
+<div class="numbertext">3 / 3</div>
+<img src="pic2.jpg" style="width:100%">
+</div>
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+<div style="text-align:center">
+<span class="dot" onclick="currentSlide(1)"></span>
+<span class="dot" onclick="currentSlide(2)"></span>
+<span class="dot" onclick="currentSlide(3)"></span>
+<span class="dot" onclick="currentSlide(4)"></span>
+</div>
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += "active";
+}
+</script>
 <hr>
 <div class="footer">
 <div class="containar2">
@@ -121,11 +171,8 @@ Prison will be their home.<br><br>
   <div class="footer-col">
     <h4>other films</h4>
     <ul>
-            <li> <a href="project.html" target="_self">Don't breathe</a> </li>
-      <li> <a href="IT%20PROJECT%20(1).html"target="_self">A Silent Voice</a> </li>
-      <li> <a href="IT%20PROJECT%20(2).html"target="_self">Your Name</a> </li>
-      <li> <a href="SpongeBob.html"target="_self">Sponge On The Run</a> </li>
-
+      <li> <a href="file:///C:/Users/compu%20zone/OneDrive/Desktop/notes.html/project%20file/project.html" target="_self">Don't breathe</a> </li>
+      <li> <a href="#"target="_self">Sponge On The Run</a> </li>
     </ul>
 
   </div>
