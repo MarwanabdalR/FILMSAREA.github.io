@@ -5,14 +5,100 @@ body{
   background-size: cover;
   margin: 0;
 }
-.poster{
-  border: 1px hidden;
-  padding-bottom: 50px;
-}
 .width {
   width: 1000px;
   margin: auto;
   border: hidden;
+}
+.like {
+  position: absolute;
+  font-size: 50px;
+  top: 620px;
+  cursor: pointer;
+  user-select: none;
+  color: rgb(140, 140, 140);
+}
+
+.like:hover {
+  color: darkblue;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.508); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #585858;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px hidden #888;
+  width: 35%; /* Could be more or less, depending on screen size */
+  height: 35%;
+}
+.modal-content p {
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+
+}
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.rate{
+  color: rgb(255, 255, 255);
+  border: 2px hidden;
+  border-radius: 23px;
+  width: 70px;
+  height: 30px;
+  background-color: rgba(140, 140, 140, 0.874);
+  position: absolute;
+  left: 300px;
+  top: 625px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  cursor: pointer;
+
+}
+.rate:hover{
+  background-color: #9b9b9b;
+}
+.add{
+  font-size: 30px;
+}
+.heart{
+  color: rgb(255, 255, 255);
+  background-color: #26293100;
+  border: 1px hidden;
+  cursor: pointer;
+}
+.heart:hover{
+  color: #ea38a9;
+}
+.heart:checked{
+  color: #ea38a9;
+}
+.poster{
+  border: 1px hidden;
+  padding-bottom: 50px;
 }
 .storyt {
   background: rgba(132, 123, 179, 0.3);
@@ -213,7 +299,7 @@ audio {
   margin-top: 8px;
   margin-right: 20px;
   font-size: 17px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 @media screen and (max-width: 600px) {
   .topnav a, .topnav input[type=text] {
@@ -275,7 +361,7 @@ audio {
 .tbody1 tr:nth-child(even){
   background-color: rgba(162, 174, 229, 0.3);
 }
-button {
+.button {
   background-color: rgb(109, 103, 133);
   font-style: oblique;
   color: white;
@@ -284,7 +370,7 @@ button {
   height: 20px;
   width: 80px;
 }
-button:hover{
+.button:hover{
   background-color: rgb(118, 114, 134);
   cursor: pointer;
   color: rgb(0, 0, 0);
